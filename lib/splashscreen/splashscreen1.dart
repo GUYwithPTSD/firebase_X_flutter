@@ -46,7 +46,7 @@ class Splashscreen1 extends StatelessWidget {
               'Forget to bring your wallet \n while you are shopping?',
               style: TextStyle(
                 fontSize: 10.0,
-                color: Colors.deepPurple,
+                color: Colors.indigo,
                 fontWeight: FontWeight.normal,
               ),
             ),
@@ -96,7 +96,7 @@ class Splashscreen1 extends StatelessWidget {
                     );
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.pinkAccent,
+                    backgroundColor: Colors.deepOrange,
                   ),
                   child: Text(
                     'Continue',

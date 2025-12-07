@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:animasi_flutter/splashscreen/splashscreen3.dart';
+//import 'package:animasi_flutter/login.dart';
 
-class Splashscreen2 extends StatelessWidget {
-  const Splashscreen2({super.key});
+class Splashscreen3 extends StatelessWidget {
+  const Splashscreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class Splashscreen2 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.grey,
                 image: DecorationImage(
-                  image: AssetImage("../assets/images/profile2.jpeg"),
+                  image: AssetImage("../assets/images/profile3.jpeg"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -43,7 +43,7 @@ class Splashscreen2 extends StatelessWidget {
             ),
             Text(
               textAlign: TextAlign.center,
-              'Dont worry! we got you cover \n use X-wallet instead of cash!',
+              'Lets try X-wallet now! \n and get the BEST solution!',
               style: TextStyle(
                 fontSize: 10.0,
                 color: Colors.indigo,
@@ -68,7 +68,7 @@ class Splashscreen2 extends StatelessWidget {
                   width: 5,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.black,
+                    color: Colors.grey[400],
                   ),
                 ),
                 SizedBox(width: 3.0),
@@ -77,7 +77,7 @@ class Splashscreen2 extends StatelessWidget {
                   width: 5,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.grey[400],
+                    color: Colors.black,
                   ),
                 ),
               ],
@@ -90,16 +90,17 @@ class Splashscreen2 extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Splashscreen3()),
-                    );
+                    // Navigator.pushAndRemoveUntil(
+                    //   context,
+                    //   MaterialPageRoute(builder: (context) => Login()),
+                    //   (Route<dynamic> route) => false,
+                    // );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.deepOrange,
                   ),
                   child: Text(
-                    'Continue',
+                    'Get Started',
                     style: TextStyle(
                       fontSize: 15.0,
                       color: Colors.white,
