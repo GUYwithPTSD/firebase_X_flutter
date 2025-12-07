@@ -21,37 +21,37 @@ A new Flutter project.
 
 Berikut tampilan Splashscreen1:
 
-![Tampilan splashscreen1 dalam versi mobile](assets/readme/splashscreen1.png)
+![Tampilan splashscreen1 dalam versi mobile](Assets/readme/splashscreen1.png)
 
 ---
 
 Berikut tampilan Splashscreen2:
 
-![Tampilan splashscreen1 dalam versi mobile](assets/readme/splashscreen2.png)
+![Tampilan splashscreen1 dalam versi mobile](Assets/readme/splashscreen2.png)
 
 ---
 
 Berikut tampilan Splashscreen3:
 
-![Tampilan splashscreen1 dalam versi mobile](assets/readme/splashscreen3.png)
+![Tampilan splashscreen1 dalam versi mobile](Assets/readme/splashscreen3.png)
 
 ---
 
 Berikut tampilan login page:
 
-![Tampilan splashscreen1 dalam versi mobile](assets/readme/loginpage.png)
+![Tampilan splashscreen1 dalam versi mobile](Assets/readme/loginpage.png)
 
 ---
 
 Berikut tampilan login page:
 
-![Tampilan splashscreen1 dalam versi mobile](assets/readme/loginfail.png)
+![Tampilan splashscreen1 dalam versi mobile](Assets/readme/loginfail.png)
 
 ---
 
 Berikut tampilan login page:
 
-![Tampilan splashscreen1 dalam versi mobile](assets/readme/loginsuccess.png)
+![Tampilan splashscreen1 dalam versi mobile](Assets/readme/loginsuccess.png)
 
 ---
 
