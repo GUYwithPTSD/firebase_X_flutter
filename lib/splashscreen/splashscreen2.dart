@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:animasi_flutter/splashscreen/splashscreen2.dart';
+//import 'package:uts_1123150135_ivan/screen/splashscreen3.dart';
 
-class Splashscreen1 extends StatelessWidget {
-  const Splashscreen1({super.key});
+class Splashscreen2 extends StatelessWidget {
+  const Splashscreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class Splashscreen1 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.grey,
                 image: DecorationImage(
-                  image: AssetImage("./assets/images/profile1.png"),
+                  image: AssetImage("../assets/images/profile2.jpeg"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -43,7 +43,7 @@ class Splashscreen1 extends StatelessWidget {
             ),
             Text(
               textAlign: TextAlign.center,
-              'Forget to bring your wallet \n while you are shopping?',
+              'Dont worry! we got you cover \n use X-wallet instead of cash!',
               style: TextStyle(
                 fontSize: 10.0,
                 color: Colors.deepPurple,
@@ -59,7 +59,7 @@ class Splashscreen1 extends StatelessWidget {
                   width: 5,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.black,
+                    color: Colors.grey[400],
                   ),
                 ),
                 SizedBox(width: 3.0),
@@ -68,7 +68,7 @@ class Splashscreen1 extends StatelessWidget {
                   width: 5,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.grey[400],
+                    color: Colors.black,
                   ),
                 ),
                 SizedBox(width: 3.0),
@@ -90,10 +90,10 @@ class Splashscreen1 extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Splashscreen2()),
-                    );
+                    // Navigator.push(
+                    //   context,
+                    //   MaterialPageRoute(builder: (context) => Splashscreen3()),
+                    // );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.pinkAccent,
