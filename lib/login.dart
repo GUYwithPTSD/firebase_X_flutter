@@ -33,12 +33,13 @@ class _LoginState extends State<Login> {
 
       if (!mounted) return;
 
-      // Tampilkan alert dialog jika berhasil
       showDialog(
         context: context,
         builder: (_) => AlertDialog(
           title: const Text("Login Success"),
-          content: Text('UID: ${user?.uid}\nEmail: ${user?.email}'),
+          content: Text(
+            'SELAMAT DATANG!\nUID: ${user?.uid}\nEmail: ${user?.email}',
+          ),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context),
@@ -48,12 +49,10 @@ class _LoginState extends State<Login> {
         ),
       );
     } on FirebaseAuthException catch (e) {
-      // tangkap eror
       setState(() {
-        _error = e.message; // pesan error ditampilkan di UI
+        _error = e.message;
       });
     } finally {
-      // Selesai loading
       if (mounted) {
         setState(() {
           _isloading = false;
@@ -94,7 +93,7 @@ class _LoginState extends State<Login> {
                 const Text(
                   "Silakan masukkan email Anda untuk melanjutkan.",
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 15,
                     color: Color.fromARGB(255, 0, 0, 0),
                   ),
                 ),
