@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'package:animasi_flutter/login.dart';
+import 'package:animasi_flutter/login.dart';
 
 class Splashscreen3 extends StatelessWidget {
   const Splashscreen3({super.key});
@@ -28,13 +28,13 @@ class Splashscreen3 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.grey,
                 image: DecorationImage(
-                  image: AssetImage("../assets/images/profile3.jpeg"),
+                  image: AssetImage("../assets/images/profile3.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
             ),
             Text(
-              'Welcome',
+              'Lets Get Started!',
               style: TextStyle(
                 fontSize: 30.0,
                 color: Colors.black,
@@ -43,7 +43,7 @@ class Splashscreen3 extends StatelessWidget {
             ),
             Text(
               textAlign: TextAlign.center,
-              'Lets try X-wallet now! \n and get the BEST solution!',
+              'Lets try coffecat now! \n and get the BEST coffe ever!',
               style: TextStyle(
                 fontSize: 10.0,
                 color: Colors.indigo,
@@ -90,11 +90,11 @@ class Splashscreen3 extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {
-                    // Navigator.pushAndRemoveUntil(
-                    //   context,
-                    //   MaterialPageRoute(builder: (context) => Login()),
-                    //   (Route<dynamic> route) => false,
-                    // );
+                    Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(builder: (context) => Login()),
+                      (Route<dynamic> route) => false,
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.deepOrange,

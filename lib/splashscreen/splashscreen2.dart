@@ -28,7 +28,7 @@ class Splashscreen2 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.grey,
                 image: DecorationImage(
-                  image: AssetImage("../assets/images/profile2.jpeg"),
+                  image: AssetImage("../assets/images/profile2.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -43,7 +43,7 @@ class Splashscreen2 extends StatelessWidget {
             ),
             Text(
               textAlign: TextAlign.center,
-              'Dont worry! we got you cover \n use X-wallet instead of cash!',
+              'Dont worry! we got have a greatest ingredient \n of coffee in our cafe!',
               style: TextStyle(
                 fontSize: 10.0,
                 color: Colors.indigo,

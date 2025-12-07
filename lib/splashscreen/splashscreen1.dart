@@ -28,7 +28,7 @@ class Splashscreen1 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.grey,
                 image: DecorationImage(
-                  image: AssetImage("./assets/images/profile1.png"),
+                  image: AssetImage("./assets/images/profile1.jpeg"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -43,7 +43,7 @@ class Splashscreen1 extends StatelessWidget {
             ),
             Text(
               textAlign: TextAlign.center,
-              'Forget to bring your wallet \n while you are shopping?',
+              'Forget to drink a cu of Coffee \n while you are in a bad mood',
               style: TextStyle(
                 fontSize: 10.0,
                 color: Colors.indigo,
